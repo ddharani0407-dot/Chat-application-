@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.chat-container {
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+}
+.messages {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.message {
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+.message.me {
+  background: #d1ffd1;
+  text-align: right;
+}
+.message.other {
+  background: #f1f1f1;
+}
